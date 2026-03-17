@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Metro Ticket Discount</title>
+  <link rel="stylesheet" href="metro.css">
+</head>
+<body>
+  <div class="marquee">
+    <div class="marquee-text">
+      🚇 Metro Me Aapka Swagat Hai • Metro Me Aapka Swagat Hai • Metro Me Aapka Swagat Hai
+    </div>
+  </div>
+  <div class="container">
+    <h1>🚇 Metro Ticket Discount</h1>
+    <p class="subtitle">Check your discount based on age and gender</p>
+
+    <label for="gender">Select Gender</label>
+    <select id="gender">
+      <option value="">-- Choose --</option>
+      <option value="MALE">Male</option>
+      <option value="FEMALE">Female</option>
+    </select>
+
+    <label for="age">Enter Age</label>
+    <input type="number" id="age" placeholder="Enter your age">
+
+    <button onclick="checkDiscount()">Check Discount</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="metro.js"></script>
+</body>
+</html>
